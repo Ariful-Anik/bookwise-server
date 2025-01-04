@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 10.99,
+      "description": "A classic novel of the Roaring Twenties.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "price": 9.99,
+      "description": "A dystopian social science fiction novel.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 12.99,
+      "description": "A novel about racial injustice in the Deep South.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 4,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 11.99,
+      "description": "A story about teenage rebellion and isolation.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 5,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "price": 14.99,
+      "description": "A quest for revenge against a giant white whale.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 6,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 13.99,
+      "description": "A romantic novel of manners in early 19th century England.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 7,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "price": 10.49,
+      "description": "A dystopian novel about a society driven by technology and consumption.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 8,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "price": 15.99,
+      "description": "The first volume of the epic fantasy trilogy.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fantasy"
+    },
+    {
+      "id": 9,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 9.49,
+      "description": "A young wizard embarks on his first year at Hogwarts School of Witchcraft and Wizardry.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fantasy"
+    },
+    {
+      "id": 10,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 12.49,
+      "description": "A prequel to 'The Lord of the Rings' that tells the tale of Bilbo Baggins.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fantasy"
+    },
+    {
+      "id": 11,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "price": 8.99,
+      "description": "A novel about a man whose portrait ages while he stays young.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    },
+    {
+      "id": 12,
+      "title": "The Great Alone",
+      "author": "Kristin Hannah",
+      "price": 13.49,
+      "description": "A family in Alaska faces its darkest secrets in the wilderness.",
+      "coverImage": "https://via.placeholder.com/150",
+      "category": "Fiction"
+    }
+  ]
+  

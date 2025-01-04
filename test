@@ -1,0 +1,67 @@
+const transactions = require('../data/transactions.json');
+const books = require('../data/books.json');
+
+// Helper function to get all subsets of an array
+const getSubsets = (arr) => {
+  const subsets = [];
+  const totalSubsets = Math.pow(2, arr.length);
+  
+  // Iterate through all possible subsets (including size 1)
+  for (let i = 0; i < totalSubsets; i++) {
+    const subset = [];
+    for (let j = 0; j < arr.length; j++) {
+      if (i & Math.pow(2, j)) subset.push(arr[j]);
+    }
+    if (subset.length > 0) {
+      subsets.push(subset);
+    }
+  }
+  return subsets;
+};
+
+// Helper function to get itemsets with support > minSupport
+const getFrequentItemsets = (transactions, minSupport) => {
+  const itemsets = {};
+  const totalTransactions = transactions.length;
+
+  // Iterate through all transactions and generate subsets
+  transactions.forEach(transaction => {
+    const subsets = getSubsets(transaction);
+    subsets.forEach(subset => {
+      const key = subset.sort().join(','); // Sort and join to create unique key
+      if (key) {
+        itemsets[key] = (itemsets[key] || 0) + 1;
+      }
+    });
+  });
+
+  // Filter itemsets by support threshold and return the frequent itemsets
+  const frequentItemsets = Object.entries(itemsets)
+    .filter(([key, count]) => count / totalTransactions >= minSupport)
+    .map(([key]) => key.split(',').map(Number));
+
+  return frequentItemsets;
+};
+
+// Generate book recommendations based on frequent itemsets
+const getRecommendations = (bookId) => {
+  const minSupport = 0.05; // Minimum support threshold
+  const frequentItemsets = getFrequentItemsets(transactions, minSupport);
+
+  const recommendations = [];
+  frequentItemsets.forEach(itemset => {
+    if (itemset.includes(bookId)) {
+      itemset.forEach(book => {
+        if (book !== bookId && !recommendations.includes(book)) {
+          recommendations.push(book);
+        }
+      });
+    }
+  });
+
+  // Return the recommendations by finding the book details
+  console.log(recommendations)
+  return recommendations.map(id => books.find(book => book.id === id));
+};
+
+module.exports = { getRecommendations };
