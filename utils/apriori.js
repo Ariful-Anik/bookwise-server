@@ -55,7 +55,7 @@ const getFrequentItemsets = (transactions, minSupport) => {
 
 // Generate book recommendations with full details and confidence
 const getRecommendations = (bookId) => {
-  const minSupport = 0.05; // Minimum support threshold
+  const minSupport = 0.1; // Minimum support threshold
   const minConfidence = 0.5; // Minimum confidence threshold
 
   // Get frequent itemsets with support
