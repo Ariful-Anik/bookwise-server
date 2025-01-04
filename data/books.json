@@ -5,7 +5,7 @@
     "author": "F. Scott Fitzgerald",
     "price": 10.99,
     "description": "A classic novel of the Roaring Twenties.",
-    "coverImage": "https://via.placeholder.com/150",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
     "category": "Fiction"
   },
   
@@ -15,7 +15,7 @@
     "author": "George Orwell",
     "price": 9.99,
     "description": "A dystopian social science fiction novel.",
-    "coverImage": "https://via.placeholder.com/150",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVY7h4heMUfi3Xw3Q2u-ZGsHRzpeLXTriOvw&s",
     "category": "Fiction"
   },
   {
@@ -24,7 +24,7 @@
     "author": "Harper Lee",
     "price": 12.99,
     "description": "A novel about racial injustice in the Deep South.",
-    "coverImage": "https://via.placeholder.com/150",
+    "coverImage": "https://vaundamicheauxnelson.com/wp-content/uploads/2021/12/Mockingbird-Cover.jpg",
     "category": "Fiction"
   },
   {
@@ -33,7 +33,7 @@
     "author": "J.D. Salinger",
     "price": 11.99,
     "description": "A story about teenage rebellion and isolation.",
-    "coverImage": "https://via.placeholder.com/150",
+    "coverImage": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1398034300i/5107.jpg",
     "category": "Fiction"
   },
   {
